@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Erik&#39;s Notes</title>
+        <link>https://egchristiansen.github.io/posts/</link>
+        <description>All Posts | Erik&#39;s Notes</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 12 Mar 2021 13:51:12 -0700</lastBuildDate><atom:link href="https://egchristiansen.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>About</title>
+    <link>https://egchristiansen.github.io/posts/about/</link>
+    <pubDate>Fri, 12 Mar 2021 13:51:12 -0700</pubDate>
+    <author>Author</author>
+    <guid>https://egchristiansen.github.io/posts/about/</guid>
+    <description><![CDATA[This is a test post]]></description>
+</item></channel>
+</rss>
