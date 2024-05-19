@@ -1,14 +1,11 @@
 body {
   padding: 0;
   margin: 0;
-  
-  background-image: url("background.jpeg");
-  background-color: #FAFCFE;
+  /*background-image: url("background.jpeg");*/
+  background-color: #e2e2e2;
   background-repeat: repeat;
   background-size: cover;
 }
-
-
 
 @media only screen and (max-width: 800px) {
   .flex-container {
@@ -22,9 +19,7 @@ body {
   align-self: flex-start;
   position: sticky;
   top: 0;
-
   display: flex;
-
   margin: 0 auto;
   justify-content: center;
   font-family: "Roboto", sans-serif;
@@ -33,10 +28,8 @@ body {
 .styled-list {
   list-style: none;
   list-style-type : none;
-
   padding: 1em;
   margin: 0;
-
   margin: auto auto;
   width: 100%;
   max-width: 400px;
@@ -88,9 +81,9 @@ body {
   margin-right: .5em;
   font-size: 22px;
   font-weight: bold;
-  border-right: 2px solid #FAFCFE;
+  border-right: 2px solid #e2e2e2;
   
-  color: #FAFCFE;
+  color: #e2e2e2;
 }
 
 .link-list-text {
@@ -101,7 +94,7 @@ body {
   padding: .5em;
   font-size: 22px;
 
-  color: #FAFCFE;
+  color: #e2e2e2;
 
 }
 
