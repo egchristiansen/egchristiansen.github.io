@@ -1,25 +1,33 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #2b2b2b;
-  /* background-image: url("background1.jpg");
+  
+  background-image: url("background.jpeg");
+  background-color: #323232;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
 
 .link-list {
   flex: 1 1 50%;
   width: 100%;
-
   align-self: flex-start;
   position: sticky;
   top: 0;
 
   display: flex;
-  height: 100px;
+
   margin: 0 auto;
   justify-content: center;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .styled-list {
@@ -57,7 +65,7 @@ body {
 
 
 .list-item {
-  border: 2px solid black;
+  border: 2px solid #1c1c1c;
   margin: .5em 0;
   text-align: center;
 
@@ -71,7 +79,6 @@ body {
 
 
 }
-
 
 
 .link-list-icon {
@@ -113,15 +120,19 @@ body {
 }
 
 .about-container > p {
-  font-size: 20px;
-  font-family: sans-serif;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
   line-height: 28px;
-  color: #ffffff;
+  color: #2b2b2b;
 }
 
 .about-container > h1 {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
   font-size: 60px;
-  font-family: sans-serif;
   line-height: 70px;
   color: #b54925;
 }
