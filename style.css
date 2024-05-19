@@ -3,7 +3,7 @@ body {
   margin: 0;
   
   background-image: url("background.jpeg");
-  background-color: #323232;
+  background-color: #FAFCFE;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -50,7 +50,7 @@ body {
 
 .styled-list > a {
   text-decoration: none;
-  color: #2b5550; /* or whatever color you want */
+  color: #FAFCFE; /* or whatever color you want */
 
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .styled-list li:hover {
-  box-shadow: 4px 4px #824834;;
+  box-shadow: 4px 4px #b54925;;
   margin-left: -4px -4px;
 }
 
@@ -75,7 +75,7 @@ body {
 
   border-radius: 10px;
 
-  background-color: #b54925;
+  background-color: #824834;
 
 
 }
@@ -88,9 +88,9 @@ body {
   margin-right: .5em;
   font-size: 22px;
   font-weight: bold;
-  border-right: 2px solid #ffffff;
+  border-right: 2px solid #FAFCFE;
   
-  color: #ffffff;
+  color: #FAFCFE;
 }
 
 .link-list-text {
@@ -101,7 +101,7 @@ body {
   padding: .5em;
   font-size: 22px;
 
-  color: #ffffff;
+  color: #FAFCFE;
 
 }
 
@@ -134,5 +134,5 @@ body {
   text-align: center;
   font-size: 60px;
   line-height: 70px;
-  color: #b54925;
+  color: #2b2b2b;
 }
