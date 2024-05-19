@@ -16,7 +16,7 @@ body {
 
 @media only screen and (max-width: 800px) {
   .flex-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 
@@ -135,8 +135,8 @@ body {
 }
 
 .about-container > h1 {
-  font-size: 100px;
+  font-size: 60px;
   font-family: sans-serif;
-  line-height: 90px;
+  line-height: 70px;
   color: #b54925;
 }
